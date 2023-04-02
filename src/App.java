@@ -39,6 +39,13 @@ public class App {
         
     }
 
+    /**
+     * Function name: showMenu()
+     * 
+     * In function:
+     * 1. Print the option headers for the menu 
+     *      
+     */
     public static void showMenu() {
         System.out.println("|----------------------------|");
         System.out.println("| Encoder and Decoder App    |");
@@ -49,6 +56,17 @@ public class App {
         System.out.println("| ·3 Exit Menu               |");
     }
 
+    /**
+     * Function name: encodeText
+     * 
+     * @param input
+     * @param encoder
+     * 
+     * In function:
+     * 1. Prompt for input and scans input for a new text.
+     * 2. Use encoder's encode method to convert the text to encoded string.
+     * 
+     */
     public static void encodeText(Scanner input, Encoder encoder)  {
         System.out.println("\nEnter a new text:");
         input.nextLine();
@@ -58,6 +76,17 @@ public class App {
         System.out.println("\nEncoded text from \"" + plainText + "\": \n" + encodedString + "\n");
     }
 
+    /**
+     * Function name: decodeEncodedText
+     * 
+     * @param input
+     * @param decoder
+     * 
+     *  In function:
+     * 1. Prompt for input and scans input for an encoded text.
+     * 2. Use decoder's decode method to convert the encoded string to the decoded text.
+     * 
+     */
     public static void decodeEncodedText(Scanner input, Decoder decoder) {
         System.out.println("\nEnter an encoded text:");
         input.nextLine();
