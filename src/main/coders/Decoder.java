@@ -1,4 +1,4 @@
-package coders;
+package main.coders;
 public class Decoder extends CoderMain{
 
   /**

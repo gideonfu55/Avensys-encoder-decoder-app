@@ -1,4 +1,4 @@
-package coders;
+package main.coders;
 public class CoderMain {
 
   protected static final String REFERENCE_TABLE_LIST = "ABCDEFGHIJKLMNOPQRSTUVWYXZ0123456789()*+,-./";

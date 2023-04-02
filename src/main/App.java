@@ -1,7 +1,8 @@
+package main;
 import java.util.Scanner;
 
-import coders.Decoder;
-import coders.Encoder;
+import main.coders.Decoder;
+import main.coders.Encoder;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -32,7 +33,7 @@ public class App {
                 case 3:
                     System.exit(0);
                 default:
-                    System.out.println("\nPlease enter 1 & 2 only.\n");
+                    System.out.println("\nPlease enter 1 - 3 only.\n");
                     break;
             }
         } while (option >= 0);

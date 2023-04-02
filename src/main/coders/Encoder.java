@@ -1,4 +1,4 @@
-package coders;
+package main.coders;
 public class Encoder extends CoderMain {
 
   /**
