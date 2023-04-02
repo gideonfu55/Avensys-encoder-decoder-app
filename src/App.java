@@ -54,6 +54,7 @@ public class App {
         System.out.println("| ·1 Encode a text           |");
         System.out.println("| ·2 Decode an encoded text  |");
         System.out.println("| ·3 Exit Menu               |");
+        System.out.println("|____________________________|");
     }
 
     /**
