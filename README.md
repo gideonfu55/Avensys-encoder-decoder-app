@@ -9,9 +9,9 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-Sub-folder:
+Sub-folders:
 
-- `coders`: where the mainCoder (parent), encoder and decoder classes are.
+- `main/coders`: where the mainCoder (parent), encoder and decoder classes are.
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
