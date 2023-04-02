@@ -10,8 +10,7 @@ public class CoderMain {
   // - a.) a randomized offset, and
   // - b.) a new shiftedTable based on the random offset.
   public CoderMain() {
-    this.offset = 'B';
-    // this.offset = REFERENCE_TABLE_LIST.charAt((int)(Math.random() * REFERENCE_TABLE_LIST.length()));
+    this.offset = REFERENCE_TABLE_LIST.charAt((int)(Math.random() * REFERENCE_TABLE_LIST.length()));
     this.shiftedTable = shiftTable(this.offset);
   }
 
