@@ -4,7 +4,7 @@ import java.util.Scanner;
 import main.coders.Decoder;
 import main.coders.Encoder;
 
-public class App {
+public class Main {
     public static void main(String[] args) throws Exception {
 
         Encoder encoder = new Encoder();
