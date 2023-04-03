@@ -7,9 +7,6 @@ import main.coders.Encoder;
 public class Main {
     public static void main(String[] args) throws Exception {
 
-        Encoder encoder = new Encoder();
-        Decoder decoder = new Decoder();
-
         Scanner scanner = new Scanner(System.in);
         int option;
 
@@ -28,10 +25,10 @@ public class Main {
 
             switch (option) {
                 case 1: 
-                    encodeText(scanner, encoder);
+                    encodeText(scanner, new Encoder());
                     break;
                 case 2:
-                    decodeEncodedText(scanner, decoder);
+                    decodeEncodedText(scanner, new Decoder());
                     break;
                 case 3:
                     System.exit(0);
