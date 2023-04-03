@@ -18,6 +18,11 @@ public class Encoder extends CoderMain {
    */
   public String encode(String plainText) {
     if (plainText == null || plainText.isEmpty()) return "There is no input.";
+    for (char c : plainText.toUpperCase().toCharArray()) {
+      if (REFERENCE_TABLE_LIST.indexOf(c) == -1) {
+        return "There is an invalid character in your input.";
+      }
+    }
     
     StringBuilder output = new StringBuilder().append(this.getOffset());
     for (char c : plainText.toUpperCase().toCharArray()) {

@@ -18,9 +18,12 @@ public class Decoder extends CoderMain{
    * 
    */
   public String decode(String encodedText) {
-    char offset = Character.toUpperCase(encodedText.charAt(0));
     if (encodedText == null || encodedText.isEmpty()) return "There is no input.";
-    if (REFERENCE_TABLE_LIST.indexOf(offset) == -1) return "The first character is not a valid offset.";
+    for (char c : encodedText.toUpperCase().toCharArray()) {
+      if (REFERENCE_TABLE_LIST.indexOf(c) == -1) {
+        return "There is an invalid character in your input.";
+      }
+    }
 
     this.setOffset(encodedText.charAt(0));
 

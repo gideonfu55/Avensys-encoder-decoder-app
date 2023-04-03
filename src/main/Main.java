@@ -13,6 +13,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int option;
 
+        System.out.println("\nWelcome! Please choose only from this list of characters to form your text for encoding or decoding with this app:");
+        System.out.println("ABCDEFGHIJKLMNOPQRSTUVWYXZ0123456789()*+,-./\n");
+
         do {
             showMenu();
 
