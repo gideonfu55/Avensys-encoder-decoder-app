@@ -8,7 +8,8 @@ public class Encoder extends CoderMain {
    * @return String
    * 
    * Within function:
-   * 1. To check that the input is not null or empty.
+   * 1a. To check that the input is not null or empty.
+   * 1b. To check that all the characters in the input is valid according to the Reference Table.
    * 2. Use StringBuilder to append the randomized offset as the first char of the encoded string.
    * 3. For each char in the plainText input, find original index of char and use it to find new char
    *    from shifted table based on offset distance.

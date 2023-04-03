@@ -7,14 +7,15 @@ public class Decoder extends CoderMain{
    * @param encodedText
    * @return String
    * 
-   *  Within function:
-   *  1. To check that the encoded text input is not null or empty, and that the offset based on
+   * Within function:
+   * 1a. To check that the encoded text input is not null or empty, and that the offset based on
    *     first char is valid.
-   *  2. Set offset char for Decoder object if it's valid.
-   *  3. For each char in the encoded text input, look for the original reference index based on
-   *     reversal of offset. 
-   *  4. Append each char in (3) to StringBuilder.
-   *  5. Return StringBuilder.toString().
+   * 1b. To check that all the characters in the input is valid according to the Reference Table.
+   * 2. Set offset char for Decoder object if it's valid.
+   * 3. For each char in the encoded text input, look for the original reference index based on
+   *    reversal of offset. 
+   * 4. Append each char in (3) to StringBuilder.
+   * 5. Return StringBuilder.toString().
    * 
    */
   public String decode(String encodedText) {
