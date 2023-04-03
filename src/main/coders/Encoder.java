@@ -19,7 +19,7 @@ public class Encoder extends CoderMain {
   public String encode(String plainText) {
     if (plainText == null || plainText.isEmpty()) return "There is no input.";
     for (char c : plainText.toUpperCase().toCharArray()) {
-      if (REFERENCE_TABLE_LIST.indexOf(c) == -1) {
+      if (REFERENCE_TABLE_LIST.indexOf(c) == -1 && c != ' ') {
         return "There is an invalid character in your input.";
       }
     }

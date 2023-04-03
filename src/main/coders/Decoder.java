@@ -20,7 +20,7 @@ public class Decoder extends CoderMain{
   public String decode(String encodedText) {
     if (encodedText == null || encodedText.isEmpty()) return "There is no input.";
     for (char c : encodedText.toUpperCase().toCharArray()) {
-      if (REFERENCE_TABLE_LIST.indexOf(c) == -1) {
+      if (REFERENCE_TABLE_LIST.indexOf(c) == -1 && c != ' ') {
         return "There is an invalid character in your input.";
       }
     }
