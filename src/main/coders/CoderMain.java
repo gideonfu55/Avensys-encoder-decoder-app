@@ -29,8 +29,7 @@ public class CoderMain {
   }
 
   // Methods:
-
-  // Get a new table by shifting all characters based on the selected offset, according to distance of the offset from its original index:
+  // 1. Get a new table by shifting all characters based on the selected offset, according to distance of the offset from its original index:
   public String shiftTable(char offset) {
     StringBuilder shiftedTable = new StringBuilder();
     int referenceIndex = REFERENCE_TABLE_LIST.indexOf(offset);
