@@ -1,6 +1,6 @@
 # Encoder and Decoder
 
-Solution for an assessment which I did, based on the following:
+Solution for an assessment which I did for the following question:
 
 Requirement:
 You are to write an encoder that takes in a plaintext and encode it to another obfuscated string. The logic of the encoding / decoding is given below:
@@ -15,10 +15,10 @@ FC/GGJ RJMG.
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
-```<u>Constraints</u>
+<u>Constraints</u>
 The solution must implement the following 2 methods:
 public String encode (String plainText);
 public String decode (String encodedText);
 
-```<u>Bonus</u>
+<u>Bonus</u>
 The solution should also demonstrate the concept of OOP.
