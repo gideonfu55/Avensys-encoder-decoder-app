@@ -1,18 +1,24 @@
 # Encoder and Decoder
 
-This app allows you to encode text and decode encoded text.
+Solution for an assessment which I did, based on the following:
 
-## Folder Structure
+Requirement:
+You are to write an encoder that takes in a plaintext and encode it to another obfuscated string. The logic of the encoding / decoding is given below:
 
-The workspace contains two folders by default, where:
+Logic:
+Choose any character in the reference table as the offset. The first character of the encoded message will be the offset character. Any character not in the reference table will mapped back to the same character.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+For example, if the offset character is B, the entire table will shift by 1 element down (Refer to Shift Table #1). Thus, given the plaintext HELLO WORLD, it will be encoded as BGDKKN VNQKC.
 
-Sub-folders:
+Let’s take F as the offset character for another example. The entire table will shift 5 elements down (Refer to Shift Table #2). Given the same plaintext, the encoded message will be:
+FC/GGJ RJMG.
 
-- `main/coders`: where the mainCoder (parent), encoder and decoder classes are.
+To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+```<u>Constraints</u>
+The solution must implement the following 2 methods:
+public String encode (String plainText);
+public String decode (String encodedText);
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+```<u>Bonus</u>
+The solution should also demonstrate the concept of OOP.
