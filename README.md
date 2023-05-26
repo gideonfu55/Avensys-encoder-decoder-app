@@ -2,10 +2,12 @@
 
 Solution for an assessment which I did for the following question:
 
-Requirement:
+## Requirement
+
 You are to write an encoder that takes in a plaintext and encode it to another obfuscated string. The logic of the encoding / decoding is given below:
 
-Logic:
+## Logic
+
 Choose any character in the reference table as the offset. The first character of the encoded message will be the offset character. Any character not in the reference table will mapped back to the same character.
 
 For example, if the offset character is B, the entire table will shift by 1 element down (Refer to Shift Table #1). Thus, given the plaintext HELLO WORLD, it will be encoded as BGDKKN VNQKC.
@@ -15,10 +17,12 @@ FC/GGJ RJMG.
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
-<u>Constraints</u>
+## Constraints
+
 The solution must implement the following 2 methods:
 public String encode (String plainText);
 public String decode (String encodedText);
 
-<u>Bonus</u>
+## Bonus
+
 The solution should also demonstrate the concept of OOP.
