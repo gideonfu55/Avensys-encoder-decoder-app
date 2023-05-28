@@ -28,8 +28,10 @@ To decode it, you need to take the first character for offset and match it backw
 ## Constraints
 
 The solution must implement the following 2 methods:
-public String encode (String plainText);
-public String decode (String encodedText);
+
+- public String encode (String plainText)
+
+- public String decode (String encodedText)
 
 ## Bonus
 
