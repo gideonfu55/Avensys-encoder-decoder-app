@@ -18,7 +18,8 @@ For example, if the offset character is B, the entire table will shift by 1 elem
 Let’s take F as the offset character for another example. The entire table will shift 5 elements down (Refer to Shift Table #2). Given the same plaintext, the encoded message will be:
 FC/GGJ RJMG.
 
-![hello_world2](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/010790a3-542f-49cf-bc7b-055330223185")
+[hello_world2](src="https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/18e12294-77b3-42cd-b70c-45ee8d62610c")
+
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
