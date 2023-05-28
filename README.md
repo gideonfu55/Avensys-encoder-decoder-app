@@ -38,3 +38,7 @@ The solution must implement the following 2 methods:
 ## Bonus
 
 The solution should also demonstrate the concept of OOP.
+
+## Note
+
+B and F are used for illustration only. The code should be able to use any of the 44 characters in the reference table as offset.
