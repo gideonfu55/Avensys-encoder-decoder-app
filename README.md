@@ -2,6 +2,9 @@
 
 This is a solution for an assessment which I did on the following question.
 
+- Solution demonstration:
+![encoder-solution](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/d90dd82b-6f6a-4032-87a0-6ce4427c6923)
+
 ## Requirement
 
 You are to write an encoder that takes in a plaintext and encode it to another obfuscated string.
@@ -14,12 +17,10 @@ For example, if the offset character is B, the entire table will shift by 1 elem
 
 ![hello_world](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/cd9baeeb-e580-4670-b910-58959835d326")
 
-
 Let’s take F as the offset character for another example. The entire table will shift 5 elements down (Refer to Shift Table #2). Given the same plaintext, the encoded message will be:
 FC/GGJ RJMG.
 
 ![hello_world2](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/18e12294-77b3-42cd-b70c-45ee8d62610c")
-
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
