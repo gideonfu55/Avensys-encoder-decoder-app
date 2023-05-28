@@ -12,12 +12,13 @@ Choose any character in the reference table as the offset. The first character o
 
 For example, if the offset character is B, the entire table will shift by 1 element down (Refer to Shift Table #1). Thus, given the plaintext HELLO WORLD, it will be encoded as BGDKKN VNQKC.
 
-![hello_world](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/23a5dec1-4cc2-45d2-9371-729f7e011a16")
+![hello_world](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/cd9baeeb-e580-4670-b910-58959835d326")
+
 
 Let’s take F as the offset character for another example. The entire table will shift 5 elements down (Refer to Shift Table #2). Given the same plaintext, the encoded message will be:
 FC/GGJ RJMG.
 
-![hello_world2](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/8b1eac16-776b-4e8b-aedd-48233e9d4e9b)
+![hello_world2](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/010790a3-542f-49cf-bc7b-055330223185")
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
 
