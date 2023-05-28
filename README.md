@@ -1,10 +1,10 @@
 # Encoder and Decoder
 
-Solution for an assessment which I did for the following question:
+This is a solution for an assessment which I did on the following question.
 
 ## Requirement
 
-You are to write an encoder that takes in a plaintext and encode it to another obfuscated string. The logic of the encoding / decoding is given below:
+You are to write an encoder that takes in a plaintext and encode it to another obfuscated string.
 
 ## Logic
 
@@ -16,6 +16,8 @@ Let’s take F as the offset character for another example. The entire table wil
 FC/GGJ RJMG.
 
 To decode it, you need to take the first character for offset and match it backwards to get the original plaintext.
+
+
 
 ## Constraints
 
