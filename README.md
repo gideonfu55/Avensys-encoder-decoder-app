@@ -2,7 +2,8 @@
 
 This is a solution for an assessment which I did on the following question.
 
-- Solution demonstration:
+Solution demonstration:
+
 ![encoder-solution](https://github.com/gideonfu55/encoder-decoder-app/assets/94817218/d90dd82b-6f6a-4032-87a0-6ce4427c6923)
 
 ## Requirement
