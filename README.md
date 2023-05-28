@@ -1,6 +1,6 @@
 # Encoder and Decoder
 
-This is a solution for an assessment which I did on the following question.
+This is a solution for an assessment which I did on the following question. To check it out, clone this repository and run java from src/main/Main.java. Have fun!
 
 **Solution demonstration:**
 
